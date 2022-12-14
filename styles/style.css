@@ -1,0 +1,107 @@
+@font-face {
+   font-family: "LucidaSansUnicode";
+   src: url(../font/LucidaSansUnicode.ttf);
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   transition: all .1s ease-in;
+}
+body {
+   color: #ffffff;
+   font-family: "LucidaSansUnicode";
+   line-height: 1.17;
+}
+ul, ol {
+   list-style: none;
+}
+h1 {
+   margin: 0;
+   padding: 0;
+}
+.wrapper {
+   max-width: 1440px;
+   background-color: #3399CC;
+   border: 25px solid #2B81AC;
+   margin: 0 auto;
+   padding: 0 135px;
+}
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+.header__title {
+   font-size: 21px;
+   padding-top: 60px;
+   padding-bottom: 35px;
+}
+.weather__list {
+   font-size: 0;
+}
+.short-item {
+   width: 25%;
+}
+.middle-item {
+   width: 50%;
+}
+.long-item {
+   width: 100%;
+}
+.weather__item {
+   display: inline-block;
+   border: 2px solid #ffffff;
+   padding-top: 26px;
+   padding-bottom: 27px;
+}
+.weather__item p {
+   font-size: 22px;
+   text-align: center;
+}
+.weather__item p:not(:last-child) {
+   margin-bottom: 4px;
+}
+i {
+   font-size: 42px;
+   vertical-align: middle;
+}
+.weather__list:hover .weather__item:not(:hover) {
+opacity: 0.5;
+}
+#Lisbon {
+   background-color: #71B8DB;
+}
+#Paris {
+   background-color: #71DBDB;
+}
+#Belgrade {
+   background-color: #B994B8;
+}
+#Venice {
+   background-color: #C24747;
+}
+#Tel-Avive {
+   background-color: #EB9581;
+}
+#Cair {
+   background-color: #FEDB94;
+}
+#New-York {
+   background-color: #B8DBB8;
+}
+#New-Delhi {
+   background-color: #94B8B8;
+}
+#San-Francisco {
+   background-color: #DB94B8;
+}
+#Tokyo {
+   background-color: #71B894;
+}
+#Sydney {
+   background-color: #9494B8;
+}
+.footer {
+   padding-top: 35px;
+   padding-bottom: 119px;
+}
